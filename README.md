@@ -12,17 +12,17 @@ the game harder the longer the player stays alive. If the player is touched by a
 will die and the game ends. 
 
 Features: 
-
+ 
  -Custom Designed Title Screen 
-
+ 
  -Simple 8-Button Control System for Moving and Shooting 
-
+ 
  -Particle Effects for Player Movement and Enemy Destruction 
-
+ 
  -Retro Sound Effects and Music 
-
+ 
  -In-Game GUI Showing the Player’s Score and Wave Number 
-
+ 
  -Various Enemy Types to Add Difficulty and Replay Value 
  
  -A Wave-Based Spawning System to Increase the Difficulty of the Game 
