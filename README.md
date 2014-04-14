@@ -11,6 +11,7 @@ As the wave number increases, the amount of enemies being spawned also increases
 the game harder the longer the player stays alive. If the player is touched by an enemy, then he or she 
 will die and the game ends. 
 
+
 Features: 
  
  -Custom Designed Title Screen 
@@ -26,6 +27,7 @@ Features:
  -Various Enemy Types to Add Difficulty and Replay Value 
  
  -A Wave-Based Spawning System to Increase the Difficulty of the Game 
+
 
 Controls: 
 Use the “W”, “A”, “S”, or “D” keys to move the ship in any direction. Use the arrow keys to fire lasers in 
