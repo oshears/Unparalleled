@@ -1,4 +1,5 @@
 Unparalleled 
+============
 By Osaze Shears 
 
 Project Goal: The goal of the game is to provide players with a retro-style, top-down shooter, arcade 
@@ -13,23 +14,19 @@ will die and the game ends.
 
 
 Features: 
+============
  
- -Custom Designed Title Screen 
- 
- -Simple 8-Button Control System for Moving and Shooting 
- 
- -Particle Effects for Player Movement and Enemy Destruction 
- 
- -Retro Sound Effects and Music 
- 
- -In-Game GUI Showing the Player’s Score and Wave Number 
- 
- -Various Enemy Types to Add Difficulty and Replay Value 
- 
- -A Wave-Based Spawning System to Increase the Difficulty of the Game 
+ * Custom Designed Title Screen 
+ * Simple 8-Button Control System for Moving and Shooting 
+ * Particle Effects for Player Movement and Enemy Destruction 
+ * Retro Sound Effects and Music 
+ * In-Game GUI Showing the Player’s Score and Wave Number 
+ * Various Enemy Types to Add Difficulty and Replay Value 
+ * A Wave-Based Spawning System to Increase the Difficulty of the Game 
 
 
 Controls: 
+============
 Use the “W”, “A”, “S”, or “D” keys to move the ship in any direction. Use the arrow keys to fire lasers in 
 any of the four directions. Alternatively, hold two adjacent arrow keys in order to fire diagonally. 
   
