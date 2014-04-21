@@ -78,11 +78,7 @@
     instance_create(x,y+720,obj_pointer);
     instance_create(x+1080,y+720,obj_pointer);
     spawn=false;
-    alarm[0]=240;
-}
-if (score&gt;400){
-    instance_change(obj_spawn3,true);
-    global.wave+=1;
+    alarm[0]=100;
 }
 </string>
           </argument>

@@ -31,9 +31,6 @@
     <object>objects\obj_quad</object>
     <object>objects\obj_sinker</object>
     <object>objects\par_basic_enemy</object>
-    <object>objects\obj_gen_pointer</object>
-    <object>objects\obj_gen_quad</object>
-    <object>objects\obj_gen_sinker</object>
     <object>objects\obj_boom</object>
     <object>objects\obj_start</object>
     <object>objects\obj_exit</object>
@@ -42,6 +39,9 @@
     <object>objects\obj_main</object>
     <object>objects\obj_spawn1</object>
     <object>objects\obj_spawn2</object>
+    <object>objects\obj_spawn3</object>
+    <object>objects\obj_spawn4</object>
+    <object>objects\obj_spawn5</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
