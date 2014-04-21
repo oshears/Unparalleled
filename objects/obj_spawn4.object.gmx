@@ -81,7 +81,7 @@
     alarm[0]=160;
 }
 if (score&gt;800){
-    instance_change(obj_spawn4,true);
+    instance_change(obj_spawn5,true);
     global.wave+=1;
 }
 </string>

@@ -2,7 +2,9 @@ Unparalleled
 ============
 By Osaze Shears 
 
-Project Goal: The goal of the game is to provide players with a retro-style, top-down shooter, arcade 
+Project Goal: 
+============
+The goal of the game is to provide players with a retro-style, top-down shooter, arcade 
 game. The player must stay alive for as long as he or she can without being touched by any enemies. The 
 game features the commonly used “WASD” control system and colorful particle effects based on various 
 player actions (i.e. movement and enemy destruction). Currently there are three enemy types: Pointers, 
