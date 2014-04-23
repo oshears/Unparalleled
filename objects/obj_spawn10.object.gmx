@@ -106,8 +106,9 @@
     instance_create(0,720/2,obj_sinker);
     
     spawn=false;
-    alarm[0]=500;
+    alarm[0]=3000;
 }
+if(object_exists(obj_player)=false) instance_destroy();
 </string>
           </argument>
         </arguments>

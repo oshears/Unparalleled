@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>friction=0.2;
 
-global.score=0;
+instance_create(0,0,obj_spawn1);
 
 var button_pressed;
 
@@ -356,13 +356,6 @@ if (speed&gt;0){
 else{
     part_particles_clear(global.P_System);
 }
-
-
-
-if (global.score&gt;global.highscore){
-    show_debug_message("am.");
-    global.highscore=global.score;
-}  
 
 
 

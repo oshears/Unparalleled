@@ -89,6 +89,7 @@ if (score&gt;9000){
     instance_change(obj_spawn6,true);
     global.wave+=1;
 }
+if(object_exists(obj_player)=false) instance_destroy();
 </string>
           </argument>
         </arguments>

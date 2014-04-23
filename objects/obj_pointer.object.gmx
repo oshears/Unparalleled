@@ -147,6 +147,8 @@ if (place_meeting(x,y+vspeed,obj_pointer)&amp;&amp;(other.y-obj_pointer.y&gt;0))
     //move_outside_all(obj_pointer.direction-180,1);
     speed=0;
 }*/
+
+if(object_exists(obj_player)=false) instance_destroy();
 </string>
           </argument>
         </arguments>

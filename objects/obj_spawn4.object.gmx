@@ -89,10 +89,11 @@
     spawn=false;
     alarm[0]=500;
 }
-if (score&gt;7000){
+if (score&gt;2500){
     instance_change(obj_spawn5,true);
     global.wave+=1;
 }
+if(object_exists(obj_player)=false) instance_destroy();
 </string>
           </argument>
         </arguments>

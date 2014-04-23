@@ -56,11 +56,15 @@
     <object>objects\obj_spawn8</object>
     <object>objects\obj_spawn9</object>
     <object>objects\obj_spawn10</object>
+    <object>objects\obj_gmcontrol</object>
+    <object>objects\pauseCont</object>
+    <object>objects\obj_pause_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
     <room>rooms\rm_field</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_pause_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -26,11 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_aqua);
-draw_set_font(fnt_insane);
-
-if (global.gamecounter&gt;0)draw_text(view_xview,view_yview,"High Score: "+string(global.highscore));
-else draw_text(view_xview,view_yview,"High Score: 0");
-
+draw_set_font(fnt_largeinsane);
+draw_text((1080/2)-300,180,"Paused");
 </string>
           </argument>
         </arguments>

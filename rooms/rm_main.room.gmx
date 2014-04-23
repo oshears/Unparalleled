@@ -52,7 +52,7 @@
   <instances>
     <instance objName="obj_exit" x="224" y="448" name="inst_C2F4892B" locked="0" code="" scaleX="0.58695650100708" scaleY="0.495934963226318" colour="4294967295" rotation="0"/>
     <instance objName="obj_start" x="224" y="352" name="inst_6EA85994" locked="0" code="" scaleX="0.58695650100708" scaleY="0.495934963226318" colour="4294967295" rotation="0"/>
-    <instance objName="obj_highscore" x="0" y="0" name="inst_330BBD81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gmcontrol" x="64" y="160" name="inst_4E03AFB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

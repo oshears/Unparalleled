@@ -115,8 +115,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.score=0;
-global.wave=0;
+            <string>global.score=global.score-global.score;
+global.wave=global.wave-global.wave;
 room_goto(rm_main);
 </string>
           </argument>
