@@ -25,13 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawn=true;
+            <string>globalvar highscore;
+highscore = 1;
+global.gamecounter=0;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,47 +50,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawn=true;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (spawn==true)
-{
-    instance_create(x,y,obj_quad);
-    instance_create(1080/2,0,obj_quad);
-    instance_create(x+1080,y,obj_quad);
-    instance_create(1080,720/2,obj_quad);
-    instance_create(x,y+720,obj_quad);
-    instance_create(1080/2,720,obj_quad);
-    instance_create(x+1080,y+720,obj_quad);
-    instance_create(0,720/2,obj_quad);
-    
-    spawn=false;
-    alarm[0]=250;
-}
-if (score&gt;8000){
-    instance_change(obj_spawn6,true);
-    global.wave+=1;
-}
+            <string>draw_set_color(c_aqua);
+draw_set_font(fnt_insane);
+/*
+if (global.gamecounter&gt;0)draw_text(view_xview,view_yview,"High Score: "+string(global.highscore));
+else draw_text(view_xview,view_yview,"High Score: 0");
+*/
 </string>
           </argument>
         </arguments>

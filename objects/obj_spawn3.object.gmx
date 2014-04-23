@@ -74,13 +74,21 @@
             <string>if (spawn==true)
 {
     instance_create(x,y,obj_pointer);
+    instance_create(1080/2,0,obj_quad);
+    instance_create(1080/2,0,obj_pointer);
     instance_create(x+1080,y,obj_pointer);
+    instance_create(1080,720/2,obj_quad);
+    instance_create(1080,720/2,obj_pointer);
     instance_create(x,y+720,obj_pointer);
+    instance_create(1080/2,720,obj_quad);
+    instance_create(1080/2,720,obj_pointer);
     instance_create(x+1080,y+720,obj_pointer);
+    instance_create(0,720/2,obj_quad);
+    instance_create(0,720/2,obj_pointer);
     spawn=false;
-    alarm[0]=200;
+    alarm[0]=500;
 }
-if (score&gt;600){
+if (score&gt;5000){
     instance_change(obj_spawn4,true);
     global.wave+=1;
 }

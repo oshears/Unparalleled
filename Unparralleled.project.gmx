@@ -20,8 +20,12 @@
     <background>background\bg_title</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_insane</font>
+    <font>fonts\fnt_largeinsane</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -33,8 +37,13 @@
     <object>objects\par_basic_enemy</object>
     <object>objects\obj_boom</object>
     <object>objects\obj_start</object>
+    <object>objects\obj_mainmenu</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_endscore</object>
+    <object>objects\obj_gameover</object>
+    <object>objects\obj_highscore</object>
+    <object>objects\obj_endhighscore</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_main</object>
     <object>objects\obj_spawn1</object>
@@ -42,10 +51,16 @@
     <object>objects\obj_spawn3</object>
     <object>objects\obj_spawn4</object>
     <object>objects\obj_spawn5</object>
+    <object>objects\obj_spawn6</object>
+    <object>objects\obj_spawn7</object>
+    <object>objects\obj_spawn8</object>
+    <object>objects\obj_spawn9</object>
+    <object>objects\obj_spawn10</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
     <room>rooms\rm_field</room>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

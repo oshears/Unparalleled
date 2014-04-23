@@ -69,6 +69,29 @@ alarm[1]=30;
         </arguments>
       </action>
     </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>room_goto(rm_gameover);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="1">
       <action>
         <libid>1</libid>
@@ -312,6 +335,10 @@ else if (keyboard_check(vk_right)&amp;&amp;keyboard_check(vk_up)&amp;&amp;!keybo
     button_pressed="right_up";
 }
 
+if (keyboard_check(vk_enter)){
+    score+=10;
+}
+
 
 if (speed&gt;6){
     speed=6;
@@ -330,6 +357,28 @@ else{
     part_particles_clear(global.P_System);
 }
 
+
+
+if (global.score&gt;global.highscore){
+    show_debug_message("am.");
+    global.highscore=global.score;
+}  
+
+
+
+hit=instance_place(x,y,obj_pointer);
+
+if (hit!=noone){
+    instance_destroy();
+}
+hit=instance_place(x,y,obj_quad);
+if (hit!=noone){
+    instance_destroy();
+}
+hit=instance_place(x,y,obj_sinker);
+if (hit!=noone){
+    instance_destroy();
+}
 
 </string>
           </argument>
